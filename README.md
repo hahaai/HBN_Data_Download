@@ -23,7 +23,8 @@ Example:
 
 python download_HBN_EEG_files.py -m 'EEG' -s 'All' -r 'All' -o 'HBN_data' -p 'Video1' -f 'mat' -rp 'raw' -sub '***.csv'
 
-* A same vertiosn but works on Windows:
+
+A same vertiosn but works on Windows:
 python download_HBN_EEG_files_Windows.py -m EEG -s All -r All -o HBN_data -p Video1 -f mat -rp raw
 
 
