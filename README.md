@@ -2,7 +2,7 @@
 Scripts to download HBN dataset
 
 
-## download_HBN_EEG_files.py  EEG Indivisual File downlaod
+## download_HBN_EEG_files.py  EEG Indivisual files downlaod
 
 This script downloads data from the HBN data release and stores the files in a local
 directory; users specify modality (EEG or MRI), Site, and release number.
@@ -25,8 +25,24 @@ python download_HBN_EEG_files.py -m 'EEG' -s 'All' -r 'All' -o 'HBN_data' -p 'Vi
 
 
 A same vertiosn but works on Windows:
+
 python download_HBN_EEG_files_Windows.py -m EEG -s All -r All -o HBN_data -p Video1 -f mat -rp raw
 
 
-## download_HBN_EEG_files.py  EEG Indivisual File downlaod
+## download_HBN_EEG_tars.py  EEG tar files downlaod
+
+This script downloads data from the HBN data release and stores the files in a local
+directory; users specify modality (EEG or MRI), Site, and release number.
+
+Usage:
+
+    python download_HBN_tars.py -m <data modality> -s <site>
+
+                                     -r <release number> -o <out_dir>
+
+Example:
+
+python download_HBN_tars.py -m 'EEG' -s 'All' -r 'R3' -o 'HBN_data'
+
+
 
